@@ -1,6 +1,6 @@
 # dynamodb-admin-docker-compose
 
-AWS Dynamodb 서비스에 GUI로 관리하는 서비스를 docker-compose로 작성한 repo 입니다.
+AWS Dynamodb 서비스에 연결하여 GUI로 관리하는 서비스를 docker-compose로 작성한 repo 입니다.
 
 ✅ **개발용 Dynamodb**에 연결해서 사용하세요.  
 ❌ **운영 Dynamodb** 연동은 보안상 문제가 있으니 연결하지 마세요.
