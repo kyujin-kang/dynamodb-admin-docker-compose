@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  dynamodb-admin:
+    ports:
+      # If you want to change PORT number of dynamodb-admin, change it
+      # Port 8001 is default.
+      - 8001:8001
+
+    environment:
+      # Set your local dynamodb endpoint
+      DYNAMO_ENDPOINT: "http://<YOUR_IP_ADDRESS>:8000"

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  dynamodb-admin:
+    image: aaronshaf/dynamodb-admin:latest
+
+    # `ports` should be defined by `docker-compose.override.yml`
+    #ports: []
+
+    # Some env variables should be defined by `docker-compose.override.yml`
+    #environment: {}
